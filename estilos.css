@@ -1,0 +1,22 @@
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(200px, 1fr)
+    ); /* Tamaño mínimo de 200px por tarjeta */
+    grid-gap: 10px; /* Espacio entre tarjetas */
+  }
+
+  /* Estilos para las tarjetas */
+  .card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .card img {
+    width: 150px;
+    height: 190px;
+    border-radius: 50%;
+  }
